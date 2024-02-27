@@ -14,7 +14,7 @@ The next few paragraphs are in numerical order.
 
 5. This is line number 5.
 
-6. This is line number 6.
+6gg. This is line number 6.  This was a merge conflict.
 
 7. This is line number 7.
 
