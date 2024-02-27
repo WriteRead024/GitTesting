@@ -13,6 +13,7 @@ from datetime import datetime
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 filename = "branch-merge-test.md"
 script_filename = os.path.basename(__file__)
+timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
 
 
 def print_test_info():
@@ -55,7 +56,7 @@ def create_new_Markdown_file(arg_filename):
 
 
 def commit_file_to_git(arg_filename):
-    commit_message = "b.m.t. auto-commit"
+    commit_message = "b.m.t. auto-commit " + timestamp
     subprocess.run(["git", "add", arg_filename])
     subprocess.run(["git", "commit", "-m", commit_message])
     print("File committed to git successfully.")
@@ -72,7 +73,7 @@ def git_status_is_clean() -> bool:
 
 def create_new_git_branch():
     # Create a new branch with a timestamp name.
-    branch_name = "branch-" + datetime.now().strftime("%Y%m%d%H%M%S")
+    branch_name = "branch-" + timestamp
     subprocess.run(["git", "checkout", "-b", branch_name])
     print(f"New branch '{branch_name}' created successfully.")
 
