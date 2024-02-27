@@ -39,11 +39,8 @@ def create_directory_if_dne(directory_name):
 def check_if_file_exists(arg_filename):
     # Check if the file exsts, exiting if it does.
     if os.path.exists(arg_filename):
-        print(f"File '{arg_filename}' already exists, proceeding.")
-    else:
-        # Proceed with the test step two and create the file.
-        create_new_Markdown_file()
-        # commit_file_to_git()
+        print(f"File '{arg_filename}' already exists, exiting.")
+        sys.exit()
 
 
 def create_new_Markdown_file(input_directory):
