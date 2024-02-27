@@ -14,7 +14,7 @@ The next few paragraphs are in numerical order.
 
 5f. This is line number 5.
 
-6g. This is line number 6.
+6gg. This is line number 6.
 
 7h. This is line number 7.
 
