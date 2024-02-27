@@ -1,7 +1,7 @@
 
 ### Git Testing
 
-# Subfolder **One** - Documentation
+# Subfolder **Two** - Documentation
 
 There is decent [official documentation](https://git-scm.com/doc) 
 and much additional information about git available on the web.
