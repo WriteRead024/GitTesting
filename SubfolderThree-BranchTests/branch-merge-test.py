@@ -61,6 +61,10 @@ def commit_file_to_git():
     print("File committed to git successfully.")
 
 
+def check_git_status():
+    subprocess.run(["git", "status"])
+
+
 # Main function
 if __name__ == "__main__":
     if len(sys.argv) < 2:
