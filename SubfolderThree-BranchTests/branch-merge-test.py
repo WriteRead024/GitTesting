@@ -43,15 +43,15 @@ def check_if_file_exists(arg_filename):
         sys.exit()
 
 
-def create_new_Markdown_file(input_directory):
+def create_new_Markdown_file(arg_filename):
     # Proceed with the test and create the file.
-    with open(os.path.join(input_directory, filename), "w") as file:
+    with open(arg_filename, "w") as file:
         file.write("\n### Git Testing\n")
         file.write(f"\nThis file was created by script '{script_filename}'\n")
         file.write("The next few paragraphs are in numerical order.\n")
         for i in range(1, 11):
             file.write(f"\n{i}{alphabet[i]}. This is line number {i}.\n")
-    print(f"Markdown file '{filename}' created successfully.")
+    print(f"Markdown file '{arg_filename}' created successfully.")
 
 
 def commit_file_to_git(arg_filename):
