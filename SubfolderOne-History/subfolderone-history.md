@@ -21,5 +21,5 @@ In fact, the story given on the
 does not give quite the same emphasis 
 to the creator of Linux being the creator of git, but does 
 tell a very similar story.&nbsp; Both sources of historical 
-context information are preface to other information about the 
+context information are preface to additional information about the 
 topic of git.
