@@ -10,11 +10,11 @@ I would mention that person by name, but I am still wrapping my
 head around the level of productivity that represents.&nbsp; 
 There are multiple citations concerning the fact, so there is 
 not reason for doubting it.&nbsp; 
-In fact, the story given on the Wikipedia page concerning 
-[the history of git](https://en.wikipedia.org/wiki/Git#History)
+In fact, the story given on the 
+[Wikipedia page about the history of git](https://en.wikipedia.org/wiki/Git#History)
  rather seems like the tremendously productive and 
- open-source software enthusiast person's style.&nbsp; 
- Very impressive.&nbsp; A official git website 
+ open-source software enthusiast individual's style.&nbsp; 
+ Very impressive!&nbsp; A official git website 
 [page about the history of git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
 does not give quite the same emphasis 
 to the creator of Linux being the creator of git, but does 
