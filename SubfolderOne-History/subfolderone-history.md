@@ -14,8 +14,12 @@ In fact, the story given on the
 [Wikipedia page about the history of git](https://en.wikipedia.org/wiki/Git#History)
  rather seems like the tremendously productive and 
  open-source software enthusiast individual's style.&nbsp; 
- Very impressive!&nbsp; A official git website 
+ Very impressive!&nbsp; 
+ 
+ A official git website 
 [page about the history of git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
 does not give quite the same emphasis 
 to the creator of Linux being the creator of git, but does 
-tell a very similar story.
+tell a very similar story.&nbsp; Both sources of historical 
+context information are preface to other information about the 
+topic of git.
