@@ -12,5 +12,6 @@ There are multiple citations concerning the fact, so there is
 not reason for doubting it.&nbsp; 
 In fact, the story given on the Wikipedia page concerning 
 [the history of git](https://en.wikipedia.org/wiki/Git#History)
- it sort of seems like the persons style.&nbsp; 
+ rather seems like the tremendously productive and 
+ open-source software enthusiast person's style.&nbsp; 
  Very impressive.
