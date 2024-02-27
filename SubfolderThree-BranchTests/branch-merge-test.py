@@ -5,8 +5,9 @@
 # This is a test file to test the branch merge functionality of git.
 
 import os
-import sys
 import subprocess
+import sys
+import time
 
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
@@ -70,6 +71,13 @@ def git_status_is_clean() -> bool:
         return False
 
 
+def create_new_git_branch():
+    # Create a new branch with a timestamp name.
+    branch_name = "branch-" + str(int(time.time()))
+    subprocess.run(["git", "checkout", "-b", branch_name])
+    print(f"New branch '{branch_name}' created successfully.")
+
+
 # Main function
 if __name__ == "__main__":
     # check if git status is clean, and if not, exit
@@ -91,3 +99,4 @@ if __name__ == "__main__":
             check_if_file_exists()
             create_new_Markdown_file()
             commit_file_to_git()
+            create_new_git_branch()
