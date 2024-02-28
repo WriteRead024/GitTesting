@@ -25,3 +25,10 @@ The next few paragraphs are a numbered list (in numerical order).
 10k. This is line number 10, edit in multiple branches to test merge conflicts.
 
 Notes: vscode displayed a warning prompt when the commit with the merge conflict text was attempted, but clicking 'Yes' committed the commit without further problem.&nbsp; vscode also has syntax highlighting for the merge conflict text (in the Markdown syntax highlighting/git diff tool).
+
+A `git reset --keep commithash` with commithash for the commit with the commit 
+messages then viewed in vscode did display those commit message syntax 
+highlights.&nbsp; git resetting to the commit with the actually resolved 
+conflicts required discarding the commit messages then detected as changes 
+in comparison to the resolved-conflict changes, at which point the working 
+directory was detected as clean, this paragraph was typed and the commit labled 'conflict message test complete' was committed.&nbsp; 
