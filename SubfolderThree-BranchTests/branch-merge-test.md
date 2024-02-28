@@ -33,3 +33,7 @@ merge conflict as resolved.
 The third test is in the "partial-merge-conflict" subfolder, it has both unconflicting edits and merge conflict edits.
 
 The fourth test is in the branch-20240228 subfolder and is left as an unmerged branch for future testing ease.
+
+Merging the above notes about the four Feb. 28 2024 tests from the 'md-edits-temp' branch happened 
+without conflict, but did not delete the branch.&nbsp; The 'md-edits-temp' branch remains on the GitHub copy 
+of the repo. after committing this, it looks like branches need to be manually deleted when no longer needed.
