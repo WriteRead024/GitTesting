@@ -18,5 +18,8 @@ The process is:
 3) Make some edits, additions, changes in the new branch.
 4) Push the branch and changes to GitHub.
 5) Create the pull request on GitHub from the new branch.
+
+    The last commit message should be auto-populated in the new pull request process on GitHub.
+
 6) Manage any conflicts, test failures, or other problems.
 7) Approve or reject(?, question mark, lets see what happens) the pull request merge.
