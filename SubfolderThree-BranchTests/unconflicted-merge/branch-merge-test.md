@@ -12,9 +12,9 @@ The next few paragraphs are a numbered list (in numerical order).
 
 4e. This is line number 4, edit in multiple branches to test merge conflicts.
 
-5f. This is line number 5, edit in multiple branches to test merge conflicts.
+5f. This is line number 5, edited in git repo master branch.
 
-6g. This is line number 6, edit in multiple branches to test merge conflicts.
+6g. This is line number 6, edited in git repo master branch.
 
 7h. This is line number 7, edit in multiple branches to test merge conflicts.
 
