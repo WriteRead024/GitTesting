@@ -14,11 +14,7 @@ The next few paragraphs are a numbered list (in numerical order).
 
 5f. This is line number 5, edit in multiple branches to test merge conflicts.
 
-<<<<<<< HEAD
-6g. This is line number 6, edited now in the repo master branch and already in the timestamped branch.
-=======
-6g. This is line number 6, edited in multiple branches (first branch-20240228110422 then master branch as per test procedure) to test merge conflicts.
->>>>>>> branch-20240228110422
+6gg. This is line number 6, edited in multiple branches (first branch-20240228110422 then now in the merged master branch as per test procedure) to test merge conflicts.&nbsp; The merge conflict text was committed the commit before this one.
 
 7h. This is line number 7, edit in multiple branches to test merge conflicts.
 
@@ -27,3 +23,5 @@ The next few paragraphs are a numbered list (in numerical order).
 9j. This is line number 9, edit in multiple branches to test merge conflicts.
 
 10k. This is line number 10, edit in multiple branches to test merge conflicts.
+
+Notes: vscode displayed a warning prompt when the commit with the merge conflict text was attempted, but clicking 'Yes' committed the commit without further problem.&nbsp; vscode also has syntax highlighting for the merge conflict text (in the Markdown syntax highlighting/git diff tool).
