@@ -8,9 +8,9 @@ The next few paragraphs are a numbered list (in numerical order).
 
 2c. This is line number 2, edit in multiple branches to test merge conflicts.
 
-3d. This is line number 3, edit in multiple branches to test merge conflicts.
+3d. This is line number 3, edited in branch-20240228104847.
 
-4e. This is line number 4, edit in multiple branches to test merge conflicts.
+4e. This is line number 4, edited in branch-20240228104847.
 
 5f. This is line number 5, edited in git repo master branch.
 
