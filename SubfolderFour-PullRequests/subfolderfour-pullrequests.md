@@ -23,7 +23,7 @@ The process is:
     if there is more than one commit, it might use the branch name for the pull request commit message.
 
 6) Manage any conflicts, test failures, or other problems.
-7) Approve or reject(?, question mark, lets see what happens) the pull request merge.
+7) Approve or Close the pull request.
 
 Also interesting to note is that pull requests can be used to 
 [automatically close issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue).&nbsp; 
