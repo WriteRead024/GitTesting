@@ -15,7 +15,7 @@ This repository subfolder only deals with in-repository pull requests, not inter
 The process is:
 1) Get a repository local copy on a development machine.
 2) Create a branch with `git checkout newbranchname`.
-3) Make some changes in the new branch.
+3) Make some edits, additions, changes in the new branch.
 4) Push the branch and changes to GitHub.
 5) Create the pull request on GitHub from the new branch.
 6) Manage any conflicts, test failures, or other problems.
