@@ -7,7 +7,7 @@ There is decent [official documentation](https://git-scm.com/doc)
 and much additional information about git available on the web.
 
 A basic overview of the user-useful commands is available as 
-a "[cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet/)".&nbsp; 
+a [cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet/).&nbsp; 
 Things like setting up a username and email, creating repositories, 
 managing branches, and even carefully redoing commits are mentioned.
 
