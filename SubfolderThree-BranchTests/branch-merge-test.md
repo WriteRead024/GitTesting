@@ -21,7 +21,7 @@ The first iteration of this test on Feb. 27, 2024 found that the F39 Linux manag
 system local implementation of Git 2.43.2 automatically deleted the branch during the 
 `git merge` merge conflict resolution.
 
-Three additional iterations were performed on Feb. 28, 2024.&nbsp; 
+Four additional iterations were performed on Feb. 28, 2024.&nbsp; 
 
 The first is in a subfolder "unconflicted-merge" and is an example of a merge that did not have conflicts.&nbsp; 
 
@@ -30,4 +30,6 @@ to the local branch repository, then resolved and committed again.&nbsp; That te
 "committed-merge-text" subfolder.&nbsp; The merge text had to be edited so that the git program recognized the 
 merge conflict as resolved.
 
-The third test is in the "partial-merge-conflict".
+The third test is in the "partial-merge-conflict" subfolder, it has both unconflicting edits and merge conflict edits.
+
+The fourth test is in the branch-20240228 subfolder and is left as an unmerged branch for future testing ease.
