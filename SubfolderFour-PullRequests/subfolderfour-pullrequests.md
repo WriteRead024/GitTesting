@@ -28,3 +28,8 @@ The process is:
 Also interesting to note is that pull requests can be used to 
 [automatically close issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue).&nbsp; 
 That might be an interesting thing to test further.
+
+After the pull request was merged on GitHub, GitHub created a commit for the result of the merge 
+and the pull-req-test branch was left active on the repository.&nbsp; 
+It is probably normal to then delete the branch if it is not going to be worked on further, 
+but I left the pull-req-test branch specificially as part of the exercise.
