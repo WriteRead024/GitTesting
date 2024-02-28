@@ -14,7 +14,7 @@ The next few paragraphs are a numbered list (in numerical order).
 
 5f. This is line number 5, edit in multiple branches to test merge conflicts.
 
-6g. This is line number 6, edit in multiple branches to test merge conflicts.
+6g. This is line number 6, edited now in the repo master branch and already in the timestamped branch.
 
 7h. This is line number 7, edit in multiple branches to test merge conflicts.
 
