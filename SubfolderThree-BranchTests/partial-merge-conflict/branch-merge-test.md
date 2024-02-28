@@ -12,7 +12,7 @@ The next few paragraphs are a numbered list (in numerical order).
 
 4e. This is line number 4, edit in multiple branches to test merge conflicts.
 
-5f. This is line number 5, edited in multiple branches so as to cause merge conflicts (this edit was in the repo master).
+5f. This is line number 5, edited in multiple branches so as to cause merge conflicts (which were then manually resolved as this line).
 
 6g. This is line number 6, edit in multiple branches to test merge conflicts.
 
