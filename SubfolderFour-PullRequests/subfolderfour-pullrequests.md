@@ -35,3 +35,11 @@ After the pull request was merged on GitHub, GitHub created a commit for the res
 and the pull-req-test branch was left active on the repository.&nbsp; 
 It is probably normal to then delete the branch if it is not going to be worked on further, 
 but I left the pull-req-test branch specificially as part of the exercise.
+
+## Additional Notes
+
+The vscode Git/GitHub integration includes a feature to pull changes from the master[/]origin repository into the local repository.&nbsp; 
+The difference between git's 'pull' and 'fetch' functions being that pull copies the changes to the working directory copy while fetch 
+gets the changes and stores them in the git commit history but does not copy them to the working directory, it is yet unclear to me that 
+the (specifically GitHub facilitated) pull request function should or should not copy the "fetched" changes to the master[/]origin 
+repository current commit version.
