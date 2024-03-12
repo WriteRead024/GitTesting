@@ -8,13 +8,13 @@
 import os
 import subprocess
 import sys
-from datetime import datetime
+from datetime import datetime as idt
 
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 filename = "branch-merge-test.md"
 script_filename = os.path.basename(__file__)
-timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+timestamp = idt.now().strftime("%Y%m%d%H%M%S")
 
 
 def print_test_info():
@@ -29,7 +29,7 @@ def print_test_info():
     print("7. (manual) Checkout back to the master branch.")
     print("8. (manual) Make some changes to the file in the master branch.")
     print("9. (manual) Merge the new branch into the main branch.")
-    print("10. (manual) Observe that the merge results are correct.")
+    print("10. (manual) Observe that the merge results are correct.")    
 
 
 def create_directory_if_dne(directory_name):
