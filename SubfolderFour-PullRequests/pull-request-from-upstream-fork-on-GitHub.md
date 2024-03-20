@@ -50,3 +50,21 @@ that the branches could be automatically merged.
 
 Here is a link to the commit:
 [WR-express/commit/4aced72b07](https://github.com/WriteRead024/express/commit/4aced72b078f821dfc41d9ce08f2f74d8a09338a)
+
+After the above procedure, the forked repo 'branch info bar' then indicated that the branch was 
+"1 commit ahead of expressjs/express:master". (!?!?!)
+
+It seems that this method of merge procedure might not be the best method, 
+the pull request created a commit for the commit message which showed 
+as being one commit ahead of the upstream repo.&nbsp;
+
+I did a 'git reset --hard 084e3650' 
+(which was the absolute latest commit directly from the upstream repo) 
+and then 'git push --force'.&nbsp; 
+After that the fork copy repo looked to GitHub as being in sync 
+with the upstream repo.&nbsp; 
+Also, after the hard git reset the 4aced72b07 commit linked above is was (and is)
+still extant, but is shown as not belonging to any branch.&nbsp; 
+
+The branch info bar also has a "Sync fork" button which seems to result in a cleaner 
+update result.
