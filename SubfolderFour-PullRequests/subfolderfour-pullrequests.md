@@ -12,7 +12,8 @@ and specifically [creating pull requests from repository forks](https://docs.git
 are perhaps excessive for the information needed in this testing work, but were useful in finding out information on things like
 how to reject pull requests (the term is 'Close' pull requests).
 
-This repository subfolder only deals with in-repository pull requests, not inter-(forked-)repositories' pull requests.
+This repository subfolder deals mainly with in-repository pull requests on GitHub, 
+not inter-(forked-)repositories' pull requests.
 
 The process is:
 1) Get a repository local copy on a development machine.
@@ -31,9 +32,10 @@ Also interesting to note is that pull requests can be used to
 [automatically close issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue).&nbsp; 
 That might be an interesting thing to test further.
 
-After the pull request was merged on GitHub, GitHub created a commit for the result of the merge 
-and the pull-req-test branch was left active on the repository.&nbsp; 
-It is probably normal to then delete the branch if it is not going to be worked on further, 
+During the run-through of the above process, 
+after the pull request was merged on GitHub, GitHub created a commit for the result of the merge 
+and the pull-req-test branch created in step two was left active on the repository.&nbsp; 
+At that point it would probably be normal to then delete the branch if it is not going to be worked on further, 
 but I left the pull-req-test branch specificially as part of the exercise.
 
 ## Additional Notes
