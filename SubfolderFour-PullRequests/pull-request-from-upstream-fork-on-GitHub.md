@@ -47,3 +47,6 @@ that the branches could be automatically merged.
 6) Used the title from the pull request for the merge commit.
 7) Pulled the repo changes to a local copy.
 8) Observed the new commit from the website in the local copy.
+
+Here is a link to the commit:
+[WR-express/commit/4aced72b07](https://github.com/WriteRead024/express/commit/4aced72b078f821dfc41d9ce08f2f74d8a09338a)
