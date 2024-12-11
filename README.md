@@ -7,4 +7,5 @@ All code and text is MSL.l.
 
 #### TODOs
 
-[ ] fast-forward testing
+[ ] fast-forward testing, as from the Express JS release process markdown documentation "Using a fast-forward merge keeps the history clean as it does not introduce merge commits."
+[ ] demonstrate that fetch can be nicer than pull as pull is like fetch and updates the local branch to the most recent commit
