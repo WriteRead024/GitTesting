@@ -11,4 +11,4 @@ All code and text is MSL.l.
 - [ ] demonstrate that fetch can be nicer than pull as pull is like fetch and updates the local branch to the most recent commit
 - [ ] that branch merge thing from 12/11/2024 notinotes
 - [ ] rebasing
-- [ ] show rebasing is like merging but has cleaner commit history
+- [ ] show rebasing is like merging but has cleaner commit history (https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
